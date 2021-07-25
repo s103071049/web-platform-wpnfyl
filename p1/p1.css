@@ -1,0 +1,74 @@
+body {
+  background: #f2f2f2;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav .catogary a {
+  padding: 8px;
+  background-color: #d5dfe3;
+  color: #62808f;
+  border-radius: 4px;
+}
+
+hr {
+  border-top: 4px solid #00a0e9;
+}
+
+.content {
+  display: flex;
+  padding: 6px;
+  margin-top: -9px;
+}
+
+.content .statistic {
+  display: flex;
+  margin-right: 24px;
+}
+
+.like {
+  margin-right: 12px;
+}
+
+.article__title {
+  font-weight: bold;
+}
+
+.article__content {
+  color: gray;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.article__information {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.author {
+  color: blue;
+  margin-right: 4px;
+}
+
+.time {
+  margin-bottom: -2px;
+}
+
+.content {
+  border: 1px solid gray;
+}
+
+.content + .content {
+  margin: 0;
+}
